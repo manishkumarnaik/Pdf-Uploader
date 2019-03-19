@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mahi.pdfupload.MainActivity">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter PDF Name in EditText"
+        android:ems="10"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/PDF_Name_EditText_ID" />
+
+    <Button
+        android:text="Upload pdf on online server"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:id="@+id/Button_Upload_PDF_ID"
+        android:layout_below="@+id/PDF_Name_EditText_ID"
+        />
+
+    <Button
+        android:text="Select PDF TO Upload"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button_Select_PDF_ID"
+        android:layout_above="@+id/PDF_Name_EditText_ID"
+        android:layout_marginBottom="62dp" />
+
+</RelativeLayout>
